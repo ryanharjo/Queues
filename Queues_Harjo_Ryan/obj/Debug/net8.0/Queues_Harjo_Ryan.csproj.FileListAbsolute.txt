@@ -1,0 +1,14 @@
+C:\Users\RyanHarjo\source\repos\Queues_Harjo_Ryan\obj\Debug\net8.0\Queues_Harjo_Ryan.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RyanHarjo\source\repos\Queues_Harjo_Ryan\obj\Debug\net8.0\Queues_Harjo_Ryan.AssemblyInfoInputs.cache
+C:\Users\RyanHarjo\source\repos\Queues_Harjo_Ryan\obj\Debug\net8.0\Queues_Harjo_Ryan.AssemblyInfo.cs
+C:\Users\RyanHarjo\source\repos\Queues_Harjo_Ryan\obj\Debug\net8.0\Queues_Harjo_Ryan.csproj.CoreCompileInputs.cache
+C:\Users\RyanHarjo\source\repos\Queues_Harjo_Ryan\bin\Debug\net8.0\Queues_Harjo_Ryan.exe
+C:\Users\RyanHarjo\source\repos\Queues_Harjo_Ryan\bin\Debug\net8.0\Queues_Harjo_Ryan.deps.json
+C:\Users\RyanHarjo\source\repos\Queues_Harjo_Ryan\bin\Debug\net8.0\Queues_Harjo_Ryan.runtimeconfig.json
+C:\Users\RyanHarjo\source\repos\Queues_Harjo_Ryan\bin\Debug\net8.0\Queues_Harjo_Ryan.dll
+C:\Users\RyanHarjo\source\repos\Queues_Harjo_Ryan\bin\Debug\net8.0\Queues_Harjo_Ryan.pdb
+C:\Users\RyanHarjo\source\repos\Queues_Harjo_Ryan\obj\Debug\net8.0\Queues_Harjo_Ryan.dll
+C:\Users\RyanHarjo\source\repos\Queues_Harjo_Ryan\obj\Debug\net8.0\refint\Queues_Harjo_Ryan.dll
+C:\Users\RyanHarjo\source\repos\Queues_Harjo_Ryan\obj\Debug\net8.0\Queues_Harjo_Ryan.pdb
+C:\Users\RyanHarjo\source\repos\Queues_Harjo_Ryan\obj\Debug\net8.0\Queues_Harjo_Ryan.genruntimeconfig.cache
+C:\Users\RyanHarjo\source\repos\Queues_Harjo_Ryan\obj\Debug\net8.0\ref\Queues_Harjo_Ryan.dll
