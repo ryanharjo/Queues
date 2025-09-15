@@ -4,89 +4,7 @@
     using System.Collections.Generic;
 
     // Represents a multiplayer game
-    public class Game
-    {
-        // Maximum number of players allowed (read-only)
-        public int MaxPlayers { get; }
-
-        // Current number of players in the game (read/write)
-        public int CurrentPlayers { get; set; }
-
-        // Constructor that initializes max and current players
-        public Game(int maxPlayers, int currentPlayers)
-        {
-            MaxPlayers = maxPlayers;
-            CurrentPlayers = currentPlayers;
-        }
-
-        // Removes one player from the game (decrements current players)
-        public void KickPlayer()
-        {
-            if (CurrentPlayers > 0)
-                CurrentPlayers--;
-        }
-
-        // Checks the player queue and moves players into the game if there's space
-        public void CheckQueue(Queue<Player> queue)
-        {
-            if (CurrentPlayers < MaxPlayers)
-            {
-                if (queue.Count > 0)
-                {
-                    // Remove player from the queue and add to the game
-                    queue.Dequeue();
-                    CurrentPlayers++;
-                }
-                else
-                {
-                    // No players waiting in the queue
-                    Console.WriteLine("No Players in the Queue!");
-                }
-            }
-        }
-    }
-
-    // Represents a player in the game
-    public class Player
-    {
-        // Player's health (read/write)
-        public int Health { get; set; }
-
-        // Player's unique gamer tag (read-only)
-        public string GamerTag { get; }
-
-        // Constructor initializes health and gamer tag
-        public Player(int health, string gamerTag)
-        {
-            Health = health;
-            GamerTag = gamerTag;
-        }
-
-        // Attempts to join a game or queues if the game is full
-        public void JoinGame(Game game, Queue<Player> queue)
-        {
-            if (game.CurrentPlayers == game.MaxPlayers)
-            {
-                // Game is full, add this player to the queue
-                queue.Enqueue(this);
-            }
-            else
-            {
-                // Space available, join the game immediately
-                Console.WriteLine("Joining Game");
-                game.CurrentPlayers++;
-            }
-        }
-
-        // Override ToString to display the GamerTag when printing the player
-        public override string ToString()
-        {
-            return GamerTag;
-        }
-    }
-
-    // Entry point of the program
-    class Program
+    public class Program
     {
         static void Main()
         {
@@ -109,7 +27,7 @@
             player4.JoinGame(game, playerQueue);
 
             // Print the current players waiting in the queue
-            Console.WriteLine("Players in Queue");
+            Console.WriteLine("\nPlayers in Queue:");
             foreach (var player in playerQueue)
             {
                 Console.WriteLine(player);
@@ -122,16 +40,17 @@
             game.CheckQueue(playerQueue);
 
             // Print the queue after processing
-            Console.WriteLine("\nPlayers in Queue");
+            Console.WriteLine("\nPlayers in Queue after CheckQueue:");
             foreach (var player in playerQueue)
             {
                 Console.WriteLine(player);
             }
         }
     }
-
-
-
-
-
 }
+
+
+
+
+
+

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\RyanHarjo\\source\\repos\\Queues_Harjo_Ryan\\Queues_Harjo_Ryan.csproj",
+      "projectUniqueName": "C:\\Users\\RyanHarjo\\Documents\\C# Coding Assignments\\Queues_Harjo_Ryan\\Queues_Harjo_Ryan.csproj",
       "projectName": "Queues_Harjo_Ryan",
-      "projectPath": "C:\\Users\\RyanHarjo\\source\\repos\\Queues_Harjo_Ryan\\Queues_Harjo_Ryan.csproj",
+      "projectPath": "C:\\Users\\RyanHarjo\\Documents\\C# Coding Assignments\\Queues_Harjo_Ryan\\Queues_Harjo_Ryan.csproj",
       "packagesPath": "C:\\Users\\RyanHarjo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\RyanHarjo\\source\\repos\\Queues_Harjo_Ryan\\obj\\",
+      "outputPath": "C:\\Users\\RyanHarjo\\Documents\\C# Coding Assignments\\Queues_Harjo_Ryan\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
